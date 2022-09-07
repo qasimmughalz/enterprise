@@ -1,0 +1,26 @@
+
+
+
+.graph{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+}
+
+.grapgh canvas {
+    height:300px
+}
+
+.table td{
+    color: #8f9091;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .graph{
+        width: auto;
+        height: 300px;
+    }
+
+}

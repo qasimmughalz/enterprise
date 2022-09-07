@@ -1,0 +1,21 @@
+{
+  "name": "access4u",
+  "version": "1.0.0",
+  "description": "Access4u Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server-install":"cd server && npm install",
+    "client-install":"cd client && npm install",
+    "install":"npm run server-install && npm run client-install",
+    "start": "cd server && npm start",
+    "client":"cd client && npm start",
+    "build-client":"cd client && npm run build"
+  },
+  "keywords": [
+    "Analytics"
+  ],
+  "author": "Ram",
+  "license": "ISC",
+  "dependencies": {}
+}

@@ -1,0 +1,73 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 110;
+    background: rgba(0, 0, 0, 0.75);
+  }
+  
+  .innerScroll{
+    max-height:300px;
+    overflow-y: scroll;
+  }
+
+  .card{
+    background-color: #eee;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.26);
+    border-radius: 8px;
+}
+  
+  .modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    z-index: 100;
+    overflow: hidden;
+  }
+
+
+  .videomodal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 100;
+    overflow: hidden;
+  }
+
+
+
+  .header {
+    background: linear-gradient(34deg, rgba(83, 167, 155, 1) 14%, rgba(34, 133, 182, 1) 50%);
+    padding: 1rem;
+  }
+  
+  .header h2 {
+    margin: 0;
+    color: white;
+  }
+  
+  .content {
+    padding: 1rem;
+  }
+  
+  .actions {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media (min-width: 768px) {
+    .modal {
+      /* left: calc(50% - 20rem); */
+      width: 40rem;
+    }
+    .videomodal{
+      width: 75%;
+    }
+  }

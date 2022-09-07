@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+
+.login-page{
+    position: relative;
+    height: 100%;
+    min-height: 100vh;
+    background:linear-gradient(34deg, rgba(83, 167, 155, 1) 14%, rgba(34, 133, 182, 1) 50%, rgba(243, 171, 33, 1) 93%);
+
+}
+
+.heading-two, .heading-three{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+
+.login-page .login-page-sidebar{
+    left: 0;
+    top:0;
+    position: fixed;
+    height: 100vh;
+}
+
+
+.form-control{
+    padding: 14px;
+
+}
+.btn-form{
+    padding: 15px;
+}
+
+.SignUp-form{
+    height: 100%;
+    min-height: 100vh;
+    background:linear-gradient(34deg, rgba(83, 167, 155, 1) 14%, rgba(34, 133, 182, 1) 50%, rgba(243, 171, 33, 1) 93%);
+}
+
+.text-small{
+    font-size: 12px;
+}

@@ -1,0 +1,213 @@
+.body {
+    background-color: #edf1f5 !important;
+}
+p{
+    font-size: 14px;
+}
+
+.btn-primary {
+    background-color: #2285b6;
+}
+.text-blue{
+    color: #2285b6;
+}
+.top-header{
+    justify-content: end;
+}
+.toggler-btn{
+    display: none;
+}
+
+/*  */
+.dashboard-wrapper .sidebar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100% !important;
+    width: 250px;
+    transition: all ease .3s;
+    z-index: 100;
+}
+.dashboard-wrapper .right-content{
+    position: relative;
+    height: 100vh;
+    left: 250px;
+    transition: all ease .3s;
+    width: calc(100% - 250px);
+}
+
+/*  */
+.sidebar {
+    background: linear-gradient(34deg, rgba(83, 167, 155, 1) 14%, rgba(34, 133, 182, 1) 50%);
+}
+.sidebar-logo{
+    width: 100%;
+    height: 85px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.sidebar-list-wrapper{
+    padding-left: 0;
+}
+.sidebar-item {
+   padding: 9px 10px;
+   border-radius: 4px;
+   color: white;
+   font-weight: 400;
+   transition: all ease-in .3s;
+}
+.link-wrapper{
+    display: flex;
+    gap: 10px;
+}
+.link-wrapper a:hover{
+    text-decoration: none;
+}
+.sidebar-drop-down{
+    border-radius: 4px;
+}
+.inner-links-wrapper .nav-items .nav-links{
+    font-size: 15px!important;
+}
+
+
+.rr-timeline.svelte-19ke1iv.svelte-19ke1iv{
+    width: 60% !important;
+}
+
+
+
+.pointer{
+    cursor: pointer !important;
+}
+
+
+
+
+
+
+@media only screen and (max-width:1160px) {
+    .dashboard-wrapper .sidebar {
+        width: 88px;
+        padding: 0 8px!important;
+    }
+    .sidebar-item {
+        padding: 9px;
+    }
+    .sidebar h5 {
+        font-size: 13px;
+    }
+    .link-wrapper .icon-wrapper{
+        flex-grow: 1;
+        text-align: center;
+    }
+    .link-wrapper .text-wrapper{
+        display: none;
+    }
+    .sidebar-logo{
+        object-fit: contain;
+    }
+    .sidebar-item{
+        position: relative;
+    }
+    .sidebar-item .sidebar-drop-down{
+        position: absolute;
+        z-index: 1;
+        left: 69px;
+        top: 0;
+        width: 128px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    }
+    .dashboard-wrapper .right-content{
+        position: relative;
+        left: 88px;
+        width: calc(100% - 88px);
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .dashboard-wrapper  .sidebar {
+        width: 250px;
+        z-index: 1;
+        left: -100%;
+    }
+    .dashboard-wrapper .sidebar.show{
+        left: 0%;
+    }
+    .dashboard-wrapper .right-content{
+        position: relative;
+        left: 0px;
+        width:100%;
+    }
+    .sidebar h5 {
+        font-size: unset;
+    }
+    .rounded {
+        padding: 1.5rem!important;
+    }
+    .toggler-btn{
+        display: block;
+    }
+    .link-wrapper .icon-wrapper{
+        flex-grow: 0;
+    }
+    .link-wrapper .text-wrapper{
+        display: block;
+    }
+    .sidebar-logo{
+        object-fit: cover;
+    }
+    .sidebar-item .sidebar-drop-down{
+        position: unset;
+        box-shadow: none;
+        width: 100%;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+
+/* @media only screen and (max-width: 600px) {
+    .sidebar {
+        max-width: 70%;
+        width: 100%;
+    }
+} */
+
+
+/* @media only screen and (min-width: 600px) {
+    .sidebar {
+        max-width: 40%;
+        width: 100%;
+    }
+} */
+
+
+/* @media only screen and (min-width: 768px) {
+    .sidebar {
+        max-width: 18%;
+        width: 100%;
+    }
+} */
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
+
+.playerWraper{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+}
+.playerContainer{
+    height: 100%;
+}

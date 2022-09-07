@@ -1,0 +1,44 @@
+.collapse , .collapse-data{
+ 
+    margin-top: 3px;
+    margin-right: 7px;
+}
+
+li{
+    list-style: none;
+}
+
+
+.nav-items{
+    cursor: pointer;
+    margin: 14px 0px;
+}
+.nav-items .collapse-data{
+    padding: 10px;
+}
+.nav-items .nav-links{
+    font-size: 14px;
+    color: #fff;
+    padding-left: 18px;
+}
+
+.dropdown-menu{
+    position: relative;
+}
+@media only screen and (max-width:1130px){
+    .nav-items .nav-links{
+        padding-left: 0;
+    }   
+}
+@media only screen and (max-width:768px){
+    .nav-items .nav-links{
+        padding-left: 18px;
+    }   
+}
+
+.nav-text:hover{
+    border-bottom: 1px solid #fff ;
+}
+
+
+/* ==================== COLLAPSIBLE =================== */
